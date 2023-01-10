@@ -1,7 +1,7 @@
 {
   "name": "rde-app",
   "version": "0.0.1-alpha",
-  "description": "RDE App Demo",
+  "description": "RDE App",
   "license": "MIT",
   "scripts": {
     "start": "bun run main.ts"
