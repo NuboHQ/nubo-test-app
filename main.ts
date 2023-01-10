@@ -3,7 +3,7 @@ import { Hono } from 'hono';
 const app = new Hono();
 
 app.get('/', (c) => {
-  return c.text('Hi: ' + process.env.NUBO_REGION);
+  return c.text('Hi there: ' + process.env.NUBO_REGION);
 });
 
 export default {
