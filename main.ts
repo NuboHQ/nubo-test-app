@@ -3,7 +3,7 @@ import { Hono } from 'hono';
 const app = new Hono();
 
 app.get('/', (c) => {
-  return c.text(`Hi from ${process.env.NUBO_REGION}!`);
+  return c.text(`Hi from edge region: ${process.env.NUBO_REGION}!`);
 });
 
 export default {
